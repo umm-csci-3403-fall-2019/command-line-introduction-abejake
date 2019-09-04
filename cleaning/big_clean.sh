@@ -7,4 +7,7 @@ scratch=$2
 #name of scratch directory
 
 currentDir=$(pwd)
+mkdir $scratch
 
+
+tar -zxf $tar -C $scratch
