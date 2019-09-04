@@ -11,3 +11,6 @@ mkdir $scratch
 
 
 tar -zxf $tar -C $scratch
+
+cd $scratch
+grep -rl "DELETE ME!" | xargs rm
